@@ -93,7 +93,6 @@ public class Pokemon {
          */
         int attackBonus = d20.roll();
         int defenseBonus = d20.roll();
-
         /*
          * Roll the damage dice and compute total damage.
          */
@@ -105,8 +104,7 @@ public class Pokemon {
         System.out.println(this.name + " is attacking " + opponent.name);
         System.out.println(this.name + " rolls an attack bonus of " + attackBonus);
         System.out.println(opponent.name + " rolls a defense bonus of " + defenseBonus);
-
-
+        
         /*
          * Did our attack hit?
          */
